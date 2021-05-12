@@ -13,8 +13,4 @@ public class Hello {
         System.out.println(test.toString());
         return "hello java11";
     }
-
-    public void str(){
-        System.out.println("123456");
-    }
 }
