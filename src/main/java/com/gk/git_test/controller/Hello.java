@@ -15,6 +15,6 @@ public class Hello {
     }
 
     public void com(){
-        System.out.println("22222");
+        System.out.println("999999");
     }
 }
