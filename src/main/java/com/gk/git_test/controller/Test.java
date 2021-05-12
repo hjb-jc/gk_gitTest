@@ -18,4 +18,11 @@ public class Test {
     public void setAge(int age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Test{" +
+                "age=" + age +
+                '}';
+    }
 }

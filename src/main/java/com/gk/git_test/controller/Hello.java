@@ -8,6 +8,9 @@ public class Hello {
 
     @GetMapping("/hello")
     public String hello(){
+        Test test = new Test();
+        test.setAge(10);
+        System.out.println(test.toString());
         return "hello java";
     }
 }
